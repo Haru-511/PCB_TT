@@ -418,7 +418,7 @@
         "uuid": "165e13b0-53fc-4421-b05a-92b266df690d"
       }
     ],
-    "used_designators": "#PWR1-16,D1-2,INPUT1,J1-2,SPI_FLASH_CONNECTOR1-3,SPI_RAM1-3,U1",
+    "used_designators": "#PWR1-22,D1-3,INPUT1,J1-2,Q1-3,R1-6,SPI_FLASH_CONNECTOR1-3,SPI_RAM1-3,U1,cs_ram1-2",
     "variants": []
   },
   "sheets": [
