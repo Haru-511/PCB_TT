@@ -237,6 +237,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -284,8 +285,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -294,6 +295,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -416,7 +418,7 @@
         "uuid": "165e13b0-53fc-4421-b05a-92b266df690d"
       }
     ],
-    "used_designators": "#PWR1-7,INPUT1,D1-2,SPI_FLASH_CONNECTOR1-3,J1-2,SPI_RAM1-3,U1",
+    "used_designators": "#PWR1-12,D1-2,INPUT1,J1-2,SPI_FLASH_CONNECTOR1-3,SPI_RAM1-3,U1",
     "variants": []
   },
   "sheets": [
