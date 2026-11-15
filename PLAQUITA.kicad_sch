@@ -5551,7 +5551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4202b9c7-7c81-45e5-9359-141006331bfb")
-		(property "Reference" "INPUT"
+		(property "Reference" "INPUT1"
 			(at 83.82 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5643,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "INPUT")
+					(reference "INPUT1")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45db6863-7edf-41f7-b32e-927b1e943459")
-		(property "Reference" "SPI_ANAL"
+		(property "Reference" "SPI_ANAL1"
 			(at 72.39 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5747,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "SPI_ANAL")
+					(reference "SPI_ANAL1")
 					(unit 1)
 				)
 			)
@@ -5765,7 +5765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c28c51b-af4a-474f-bf4c-d48f5f6c4b58")
-		(property "Reference" "SPI_RAM"
+		(property "Reference" "SPI_RAM1"
 			(at 134.62 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +5847,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "SPI_RAM")
+					(reference "SPI_RAM1")
 					(unit 1)
 				)
 			)
@@ -6561,7 +6561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03b3705-c34d-466f-ba9b-ebe44978a723")
-		(property "Reference" "OUTPUT"
+		(property "Reference" "OUTPUT1"
 			(at 121.92 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +6653,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "OUTPUT")
+					(reference "OUTPUT1")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a1322d-2b4f-488b-8031-f31006432055")
-		(property "Reference" "cs_ram"
+		(property "Reference" "cs_ram1"
 			(at 39.37 84.1376 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6826,7 +6826,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "cs_ram")
+					(reference "cs_ram1")
 					(unit 1)
 				)
 			)
@@ -6924,7 +6924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf990f9-65da-48fd-a592-f9b0a5143b08")
-		(property "Reference" "cs_flash"
+		(property "Reference" "cs_flash1"
 			(at 93.98 84.1376 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6999,7 +6999,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "cs_flash")
+					(reference "cs_flash1")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9cbf4e-8b7c-468b-9740-4ab1bf5bf837")
-		(property "Reference" "cs_prog"
+		(property "Reference" "cs_prog1"
 			(at 66.04 84.1376 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +7492,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "cs_prog")
+					(reference "cs_prog1")
 					(unit 1)
 				)
 			)
@@ -7509,7 +7509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef13be11-cf27-47d8-9de5-500b9c915f26")
-		(property "Reference" "SPI_FLASH_CONNECTOR"
+		(property "Reference" "SPI_FLASH_CONNECTOR1"
 			(at 104.775 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7583,7 +7583,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "SPI_FLASH_CONNECTOR")
+					(reference "SPI_FLASH_CONNECTOR1")
 					(unit 1)
 				)
 			)
@@ -7600,7 +7600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f073231b-7486-4546-890e-aba61ed1c077")
-		(property "Reference" "SPI_BRIDGE"
+		(property "Reference" "SPI_BRIDGE1"
 			(at 187.325 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,7 +7674,7 @@
 		(instances
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
-					(reference "SPI_BRIDGE")
+					(reference "SPI_BRIDGE1")
 					(unit 1)
 				)
 			)
