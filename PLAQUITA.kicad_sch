@@ -2575,6 +2575,30 @@
 			)
 		)
 	)
+	(global_label "D0 flash"
+		(shape input)
+		(at 36.83 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "017216cf-ff31-47b3-bfd5-753395f2bc69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6807 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "cs_bridge"
 		(shape input)
 		(at 72.39 63.5 180)
@@ -2695,30 +2719,6 @@
 			)
 		)
 	)
-	(global_label "CS flash"
-		(shape input)
-		(at 36.83 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "294e4ca6-c04c-44b6-9b00-d2799d511bfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6807 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "spi_mosi"
 		(shape input)
 		(at 153.67 29.21 180)
@@ -2732,30 +2732,6 @@
 		(uuid "2ed1fcb2-9798-4373-8de2-39caa2b557cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.4601 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "D0 flash"
-		(shape input)
-		(at 36.83 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2efc4efa-7dc7-4b20-bad1-a18c38cd1826")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6807 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,6 +2887,30 @@
 			)
 		)
 	)
+	(global_label "RXD"
+		(shape input)
+		(at 36.83 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5200305a-7e88-4bbb-8ebd-e9fb5afe6440")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.0953 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "mosi brid"
 		(shape input)
 		(at 97.79 83.82 0)
@@ -2983,30 +2983,6 @@
 			)
 		)
 	)
-	(global_label "D0 ram"
-		(shape input)
-		(at 36.83 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69c0d2f5-b37b-4770-a9fc-58843cf9aa6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7692 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "TXD"
 		(shape input)
 		(at 166.37 36.83 0)
@@ -3031,19 +3007,19 @@
 			)
 		)
 	)
-	(global_label "spi_cs_n_ram"
+	(global_label "TXD"
 		(shape input)
-		(at 36.83 109.22 180)
+		(at 49.53 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "726cd605-d9c8-4099-a890-9923a0f8d3a4")
+		(uuid "745493c6-4f39-4f39-bb59-f8671d7dca6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2659 109.22 0)
+			(at 55.9623 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3027,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3175,6 +3151,30 @@
 			)
 		)
 	)
+	(global_label "clk flash"
+		(shape input)
+		(at 36.83 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "929b9aff-a270-4009-a501-40ecdf2f9c6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3783 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "spi_cs_n_ram"
 		(shape input)
 		(at 35.56 40.64 0)
@@ -3247,6 +3247,54 @@
 			)
 		)
 	)
+	(global_label "D0 ram"
+		(shape input)
+		(at 49.53 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f4d75bc-9780-4a3d-8676-9ac148ffe84d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.5908 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D1 flash"
+		(shape input)
+		(at 36.83 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad54a09b-0c6f-4980-8bdc-87dab7240d41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6807 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "spi_clk_ram"
 		(shape input)
 		(at 35.56 33.02 0)
@@ -3295,30 +3343,6 @@
 			)
 		)
 	)
-	(global_label "spi_clk_ram"
-		(shape input)
-		(at 49.53 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b46e211a-5935-4efa-b888-8ffeaca9a82c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6427 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "spi_mosi_ram"
 		(shape input)
 		(at 49.53 111.76 0)
@@ -3356,30 +3380,6 @@
 		(uuid "bafb269f-139b-4d9b-9c80-c90be2935096")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.6937 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D1 flash"
-		(shape input)
-		(at 49.53 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c10b1622-72a4-422d-a79a-2d481ceab542")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6793 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3487,30 +3487,6 @@
 			)
 		)
 	)
-	(global_label "clk flash"
-		(shape input)
-		(at 49.53 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9910c68-3e07-478f-b11d-fb27a2b4d99a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.9817 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "D0 flash"
 		(shape input)
 		(at 115.57 29.21 180)
@@ -3580,6 +3556,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "spi_clk_ram"
+		(shape input)
+		(at 49.53 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f28c8fa4-4878-4687-b3cc-8236e8bdc030")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.6427 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5223,6 +5223,85 @@
 			(project "PLAQUITA"
 				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 36.83 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c882c308-bb49-4f55-b99b-c7ee0a4f7c44")
+		(property "Reference" "#PWR017"
+			(at 40.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 33.02 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9a63561-c2ea-433d-b474-1adb26222b81")
+		)
+		(instances
+			(project "PLAQUITA"
+				(path "/165e13b0-53fc-4421-b05a-92b266df690d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
